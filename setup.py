@@ -2,7 +2,9 @@ from setuptools import setup, find_packages
  
 setup(
     name="jadncbor",
-    version="1.0.0", 
+    version="1.1.0", 
     packages=["jadncbor"],
-    install_requires=[]    
+    install_requires=[
+        "cbor2"
+        ]    
 )

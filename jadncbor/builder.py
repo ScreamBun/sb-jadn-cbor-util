@@ -3,7 +3,7 @@ import cbor2
 
 
 def convert_cbor_to_json(data, encoding='hex'):
-    """
+    """P
     Convert CBOR data to JSON format.
     
     Args:
