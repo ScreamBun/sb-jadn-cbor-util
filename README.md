@@ -63,7 +63,9 @@ gem install cbor-diag
 
 ### Conversion Commands
 
+```cmd
 json2cbor.rb -v image.json > image.cbor
 cbor2json.rb -v image.cbor > image.json
 cbor2diag.rb -v image.cbor > image_diag.json
 cbor2pretty.rb image.cbor > image_pretty.txt
+```
